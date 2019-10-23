@@ -31,7 +31,7 @@ def total_even_pairs(src)
   while i < src.length
     sum = src[i][0] + src[i][1] 
     if sum % 2 == 0 
-      total += 1 
+      total += sum
     end  
   
    i += 1 
